@@ -73,3 +73,17 @@ Given a binary array nums, return the maximum number of consecutive 1's in the a
 
 - 1 <= nums.length <= 105
 - nums[i] is either 0 or 1.
+
+## Squares of a Sorted Array
+
+**Problem Link**: [LeetCode Problem 977](https://leetcode.com/problems/squares-of-a-sorted-array/)\
+**Description**:
+
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+**Constraints**:
+
+- 1 <= nums.length <= 104
+- -104 <= nums[i] <= 104
+- nums is sorted in non-decreasing order.
+
