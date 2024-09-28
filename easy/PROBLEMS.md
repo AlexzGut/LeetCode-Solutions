@@ -49,3 +49,15 @@ Return k.
 - 1 <= nums.length <= 3 * 104
 - -100 <= nums[i] <= 100
 - nums is sorted in non-decreasing order
+
+## Find Numbers with Even Number of Digits
+
+**Problem Link**: [LeetCode Problem 1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)\
+**Description**:
+
+Given an array nums of integers, return how many of them contain an even number of digits.
+
+**Constraints**:
+
+- 1 <= nums.length <= 500
+- 1 <= nums[i] <= 105
