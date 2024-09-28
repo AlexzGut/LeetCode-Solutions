@@ -61,3 +61,15 @@ Given an array nums of integers, return how many of them contain an even number 
 
 - 1 <= nums.length <= 500
 - 1 <= nums[i] <= 105
+
+## Max Consecutive Ones
+
+**Problem Link**: [LeetCode Problem 485](https://leetcode.com/problems/max-consecutive-ones/)\
+**Description**:
+
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+**Constraints**:
+
+- 1 <= nums.length <= 105
+- nums[i] is either 0 or 1.
