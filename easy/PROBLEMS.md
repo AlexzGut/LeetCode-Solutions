@@ -13,7 +13,7 @@ Given a string s, return true if it is a palindrome, or false otherwise.
 
 **Constraints**:
 
-- 1 <= s.length <= 2 * 105
+- 1 <= s.length <= 2 * 10^5
 - s consists only of printable ASCII characters
 
 ## Best Time to Buy and Sell Stock
@@ -29,8 +29,8 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 
 **Constraints**:
 
-- 1 <= prices.length <= 105
-- 0 <= prices[i] <= 104
+- 1 <= prices.length <= 10^5
+- 0 <= prices[i] <= 10^4
 
 ## Remove Duplicates from Sorted Array
 
@@ -46,7 +46,7 @@ Return k.
 
 **Constraints**:
 
-- 1 <= nums.length <= 3 * 104
+- 1 <= nums.length <= 3 * 10^4
 - -100 <= nums[i] <= 100
 - nums is sorted in non-decreasing order
 
@@ -60,7 +60,7 @@ Given an array nums of integers, return how many of them contain an even number 
 **Constraints**:
 
 - 1 <= nums.length <= 500
-- 1 <= nums[i] <= 105
+- 1 <= nums[i] <= 10^5
 
 ## Max Consecutive Ones
 
@@ -71,7 +71,7 @@ Given a binary array nums, return the maximum number of consecutive 1's in the a
 
 **Constraints**:
 
-- 1 <= nums.length <= 105
+- 1 <= nums.length <= 10^5
 - nums[i] is either 0 or 1.
 
 ## Squares of a Sorted Array
@@ -83,8 +83,8 @@ Given an integer array nums sorted in non-decreasing order, return an array of t
 
 **Constraints**:
 
-- 1 <= nums.length <= 104
-- -104 <= nums[i] <= 104
+- 1 <= nums.length <= 10^4
+- -10^4 <= nums[i] <= 10^4
 - nums is sorted in non-decreasing order.
 
 ## Duplicate Zeros
@@ -98,7 +98,7 @@ Note that elements beyond the length of the original array are not written. Do t
 
 **Constraints**:
 
-- 1 <= arr.length <= 104
+- 1 <= arr.length <= 10^4
 - 0 <= arr[i] <= 9
 
 ## Remove Element
@@ -133,4 +133,18 @@ Given an array arr of integers, check if there exist two indices i and j such th
 **Constraints**:
 
 - 2 <= arr.length <= 500
-- -103 <= arr[i] <= 103
+- -10^3 <= arr[i] <= 10^3
+
+## Replace Elements with Greatest Element on Right Side
+
+**Problem Link**: [LeetCode Problem 1299](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)\
+**Description**:
+
+Given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
+
+After doing so, return the array.
+
+**Constraints**:
+
+- 1 <= arr.length <= 10^4
+- 1 <= arr[i] <= 10^5
