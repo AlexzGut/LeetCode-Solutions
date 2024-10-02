@@ -118,3 +118,19 @@ Consider the number of elements in nums which are not equal to val be k, to get 
 - 0 <= nums.length <= 100
 - 0 <= nums[i] <= 50
 - 0 <= val <= 100
+
+## Check if N and its Double Exist
+
+**Problem Link**: [LeetCode Problem 1345](https://leetcode.com/problems/check-if-n-and-its-double-exist/)\
+**Description**:
+
+Given an array arr of integers, check if there exist two indices i and j such that :
+
+- i != j
+- 0 <= i, j < arr.length
+- arr[i] == 2 * arr[j]
+
+**Constraints**:
+
+- 2 <= arr.length <= 500
+- -103 <= arr[i] <= 103
