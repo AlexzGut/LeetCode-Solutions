@@ -162,3 +162,17 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 
 - 1 <= nums.length <= 10^4
 - -2^31 <= nums[i] <= 2^31 - 1
+
+## Sort Array By Parity
+
+**Problem Link**: [LeetCode Problem 905](https://leetcode.com/problems/sort-array-by-parity/)\
+**Description**:
+
+Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
+
+Return **any array** that satisfies this condition.
+
+**Constraints**:
+
+- 1 <= nums.length <= 5000
+- 0 <= nums[i] <= 5000
