@@ -204,3 +204,16 @@ Given an integer array nums, return the third distinct maximum number in this ar
 
 - 1 <= nums.length <= 10^4
 - -2^31 <= nums[i] <= 2^31 - 1
+
+## Find All Numbers Disappeared in an Array
+
+**Problem Link**: [LeetCode Problem 448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)\
+**Description**:
+
+Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
+
+**Constraints**:
+
+- n == nums.length
+- 1 <= n <= 10^5
+- 1 <= nums[i] <= n
