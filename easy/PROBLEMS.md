@@ -192,3 +192,15 @@ Return the ***number of indices*** where heights[i] != expected[i].
 
 - 1 <= heights.length <= 100
 - 1 <= heights[i] <= 100
+
+## Third Maximum Number
+
+**Problem Link**: [LeetCode Problem 414](https://leetcode.com/problems/third-maximum-number/)\
+**Description**:
+
+Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
+
+**Constraints**:
+
+- 1 <= nums.length <= 10^4
+- -2^31 <= nums[i] <= 2^31 - 1
