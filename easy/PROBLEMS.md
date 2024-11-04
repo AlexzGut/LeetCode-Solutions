@@ -270,7 +270,7 @@ Determine whether the largest element in the array is **at least twice** as much
 - 0 <= nums[i] <= 100
 - The largest element in nums is unique.
 
-## Largest Number At Least Twice of Others
+## Plus One
 
 **Problem Link**: [LeetCode Problem 66](https://leetcode.com/problems/plus-one/)\
 **Description**:
@@ -284,3 +284,17 @@ Increment the large integer by one and return the resulting array of digits.
 - 1 <= digits.length <= 100
 - 0 <= digits[i] <= 9
 - digits does not contain any leading 0's.
+
+## Reverse String
+
+**Problem Link**: [LeetCode Problem 344](https://leetcode.com/problems/reverse-string/)\
+**Description**:
+
+Write a function that reverses a string. The input string is given as an array of characters s.
+
+You must do this by modifying the input array in-place with O(1) extra memory.
+
+**Constraints**:
+
+- 1 <= s.length <= 105
+- s[i] is a printable ascii character.
